@@ -11,45 +11,48 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:gravity="center"
+
         >
+
         <TextView
+            android:id="@+id/textViewJatekos1Nev"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1.Játékos"
-            android:layout_marginRight="30dp"
-            android:textSize="30sp"
-            android:id="@+id/textViewJatekos1Nev"/>
+            android:textSize="50sp"
+            android:textColor="@color/mainMenuFontColor"
+            />
+
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="50sp"
+            android:id="@+id/jatekos1Score"
+            android:textColor="@color/mainMenuFontColor"/>
+
+        <TextView
+            android:id="@+id/textViewJatekos2Nev"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2.Játékos"
-            android:textSize="30sp"
-            android:layout_marginLeft="30dp"
-            android:id="@+id/textViewJatekos2Nev"/>
+            android:textSize="50sp"
+            android:textColor="@color/mainMenuFontColor"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="50sp"
+            android:id="@+id/jatekos2Score"
+            android:textColor="@color/mainMenuFontColor"
+            />
+
+
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:textSize="50sp"
-            android:layout_marginRight="70dp"
-            android:id="@+id/jatekos1Score"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:textSize="50sp"
-            android:layout_marginLeft="70dp"
-            android:id="@+id/jatekos2Score"/>
-    </LinearLayout>
+
 
 </LinearLayout>
