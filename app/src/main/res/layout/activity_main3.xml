@@ -13,8 +13,29 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
-
         >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="60dp">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="40sp"
+                android:background="@color/colorAccent"
+                android:layout_marginRight="10dp"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="40sp"
+                android:background="@color/colorAccent"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textViewJatekos1Nev"
@@ -31,8 +52,18 @@
             android:text="0"
             android:textSize="50sp"
             android:id="@+id/jatekos1Score"
-            android:textColor="@color/mainMenuFontColor"/>
+            android:textColor="@color/mainMenuFontColor"
+            android:layout_marginBottom="20dp"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="50sp"
+            android:id="@+id/jatekos2Score"
+            android:textColor="@color/mainMenuFontColor"
+            android:layout_marginTop="20dp"
+            />
         <TextView
             android:id="@+id/textViewJatekos2Nev"
             android:layout_width="wrap_content"
@@ -41,14 +72,31 @@
             android:textSize="50sp"
             android:textColor="@color/mainMenuFontColor"
             />
-        <TextView
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
-            android:textSize="50sp"
-            android:id="@+id/jatekos2Score"
-            android:textColor="@color/mainMenuFontColor"
-            />
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="40sp"
+                android:background="@color/colorAccent"
+                android:layout_marginRight="10dp"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="40sp"
+                android:background="@color/colorAccent"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
 
 
 
