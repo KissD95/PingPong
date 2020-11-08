@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorPrimary"
+
     tools:context=".MainActivity2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JÁTÉKOSOK"
+        android:textSize="50sp"
+        android:textColor="@color/mainMenuFontColor"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Játékos"
+        android:textSize="50sp"
+        android:textColor="@color/mainMenuFontColor"
+        android:layout_marginBottom="30dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/editTextJatekos1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Játékos"
+        android:textSize="50sp"
+        android:textColor="@color/mainMenuFontColor"
+        android:layout_marginBottom="30dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/editTextJatekos2"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="START"
+        android:background="@color/colorAccent"
+        android:id="@+id/buttonStartGame"/>
+
+</LinearLayout>

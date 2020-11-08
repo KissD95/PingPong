@@ -2,12 +2,17 @@ package com.example.scorecounter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     private Button btnStart;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,11 +22,14 @@ public class MainActivity extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent players= new Intent(MainActivity.this,MainActivity2.class);
+                startActivity(players);
+                finish();
             }
         });
     }
     public void init() {
-        btnStart.findViewById(R.id.btnStart);
+        btnStart=findViewById(R.id.btnStart);
+
     }
 }
