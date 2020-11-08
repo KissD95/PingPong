@@ -26,6 +26,7 @@
                 android:textSize="40sp"
                 android:background="@color/colorAccent"
                 android:layout_marginRight="10dp"
+                android:id="@+id/buttonMinusP1"
                 />
 
             <Button
@@ -34,7 +35,8 @@
                 android:text="+"
                 android:textSize="40sp"
                 android:background="@color/colorAccent"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:id="@+id/buttonPlusP1"/>
         </LinearLayout>
 
         <TextView
@@ -87,6 +89,7 @@
                 android:textSize="40sp"
                 android:background="@color/colorAccent"
                 android:layout_marginRight="10dp"
+                android:id="@+id/buttonMinusP2"
                 />
 
             <Button
@@ -95,7 +98,8 @@
                 android:text="+"
                 android:textSize="40sp"
                 android:background="@color/colorAccent"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:id="@+id/buttonPlusP2"/>
         </LinearLayout>
 
 
